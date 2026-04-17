@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / tooling
+.claude/
+.vscode/
+.idea/
+
+# Documents / source materials (not for deployment)
+*.pdf
+*.skill
+AingA.I. Logo Folder/
+
+# Source/raw video files (huge, not served)
+freepik_*.mp4
+freepik_*.webm
+Inuit Characters*
+*.mov
+
+# Backup copies
+Old hero*.html
+hero copy*.html
+
+# Unused asset scratch files
+assets/logo-base64.txt
+assets/logo-small-base64.txt
+assets/logo-small.png
+assets/aingai-animation-logo.png
+assets/character-left.mp4
+assets/character-right.mp4
+assets/character-boy.mov
+assets/character-girl.mov
+
+# Build / OS
+node_modules/
+dist/
+.cache/
