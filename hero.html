@@ -96,7 +96,7 @@
   }
 
   .character.left  { left: 2vw; }
-  .character.right { right: 2vw; }
+  .character.right { right: 2vw; height: 79.2vh; max-height: 900px; } /* +10% vs left */
 
   @media (max-width: 1100px) {
     .character { height: 60vh; }
@@ -522,7 +522,7 @@
       <source src="assets/character-left-transparent.mp4" type='video/mp4; codecs="hvc1"' />
     </video>
     <video class="character right" autoplay loop muted playsinline aria-hidden="true">
-      <source src="assets/character-right-transparent.mp4" type='video/mp4; codecs="hvc1"' />
+      <source src="assets/character-right-new.mp4" type='video/mp4; codecs="hvc1"' />
     </video>
 
     <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true" />
